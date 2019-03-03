@@ -19,4 +19,12 @@ do { \
     if(*ret < 0) break; \
 } while(0)
 
+#define VINBERO_IFACE_BASIC_VERSION "@version@"
+#define VINBERO_IFACE_BASIC_VERSION_MAJOR @version_major@
+#define VINBERO_IFACE_BASIC_VERSION_MINOR @version_minor@
+#define VINBERO_IFACE_BASIC_VERSION_PATCH @version_patch@
+#define VINBERO_IFACE_BASIC_SOVERSION "@soversion@"
+#define VINBERO_IFACE_BASIC_NAME "@PROJECT_NAME@"
+#define VINBERO_IFACE_BASIC_FULL_NAME "@PROJECT_NAME@(@soversion@)"
+
 #endif
